@@ -1,5 +1,6 @@
 import { PostCard } from '@/components/PostCard'
 import { Button } from '@/components/ui/button'
+import { PictureGrid } from '@/components/PortfolioGrid'
 import { allPosts } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns'
 import { Github } from 'lucide-react'
@@ -51,6 +52,8 @@ export default function Home() {
             <Github className="mr-1" /> Get the source code!
           </a>
         </Button>
+        <hr/>
+        <PictureGrid />
       </div>
 
       <div className="mt-16">
