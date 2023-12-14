@@ -1,0 +1,132 @@
+{
+  "title": "Портфоліо",
+  "descr": "Тут представлені деякі з моїх робіт",
+  "items": [
+    {
+      "title": "Black Sea",
+      "src": "/images/portfolio/000.jpg",
+      "itemTags": "sculpture",
+      "descr": "море"
+    },
+    {
+      "title": "В твоє волосся моя мила",
+      "src": "/images/portfolio/001.jpg",
+      "itemTags": "past",
+      "descr": "'В твоє волосся моя мила' До-Б-І-Антонича     2014-р.в., 65х55-к.о"
+    },
+    {
+      "title": "Ранок",
+      "src": "/images/portfolio/002.jpg",
+      "itemTags": "sculpture",
+      "descr": ""
+    },
+    {
+      "title": "Spring in Odesa",
+      "src": "/images/portfolio/003.jpg",
+      "itemTags": "painting",
+      "descr": ""
+    },
+    {
+      "title": "Яблука",
+      "src": "/images/portfolio/004.jpg",
+      "itemTags": "oil",
+      "descr": ""
+    },
+    {
+      "title": "Вартові моря ",
+      "src": "/images/portfolio/005.jpg",
+      "itemTags": "oil",
+      "descr": "2001 р.в. 70х50 п.о."
+    },
+    {
+      "title": "Весна неначе карусель",
+      "src": "/images/portfolio/006.jpg",
+      "itemTags": "watercolor",
+      "descr": "2014 р.в. до Б.І.Антонича 60х40-к"
+    },
+    {
+      "title": "Запах дитинства",
+      "src": "/images/portfolio/007.jpg",
+      "itemTags": "oil",
+      "descr": "2012-р.в. 60х60см. п.о"
+    },
+    {
+      "title": "Корови моляться до сонця",
+      "src": "/images/portfolio/008.jpg",
+      "itemTags": "oil",
+      "descr": "2014-р.в. до-Б-І-Антонича-55х45-к.о"
+    },
+    {
+      "title": "На Купала",
+      "src": "/images/portfolio/009.jpg",
+      "itemTags": "oil",
+      "descr": "На Купала 90х70-П.О"
+    },
+    {
+      "title": "Над лиманом",
+      "src": "/images/portfolio/010.jpg",
+      "itemTags": "oil",
+      "descr": "Над-лиманом-50х60-П.О"
+    },
+    {
+      "title": "Та не однаково мені",
+      "src": "/images/portfolio/011.jpg",
+      "itemTags": "oil",
+      "descr": "Та не однаково мені...-2014-р.в. 60х60-к.о"
+    },
+    {
+      "title": "Трійця",
+      "src": "/images/portfolio/012.jpg",
+      "itemTags": "silk",
+      "descr": "110х110-Вільний-розпис-по-шовку-2007"
+    },
+    {
+      "title": "Зимовий сад",
+      "src": "/images/portfolio/013.jpg",
+      "itemTags": "oil",
+      "descr": "2016-р.в.-20х20-п.о"
+    },
+    {
+      "title": "Зимній-Снов",
+      "src": "/images/portfolio/014.jpg",
+      "itemTags": "oil",
+      "descr": "Зимній-Снов.-2016-р.в.-60х70смп.о"
+    },
+    {
+      "title": "Дощ в старому місті",
+      "src": "/images/portfolio/015.jpg",
+      "itemTags": "silk",
+      "descr": "2007-р.в.-шовк.-акр"
+    },
+    {
+      "title": "Золото осені",
+      "src": "/images/portfolio/016.jpg",
+      "itemTags": "oil",
+      "descr": "2012-р.в-80х70-п.о"
+    },
+    {
+      "title": "Дорога до храму ",
+      "src": "/images/portfolio/017.jpg",
+      "itemTags": "oil",
+      "descr": "1999-р.в.-(триптих-1)-40х60-п.о"
+    },
+    {
+      "title": "Дорога до храму",
+      "src": "/images/portfolio/018.jpg",
+      "itemTags": "oil",
+      "descr": "1999-р.в.-(триптих-2)-40х60-п.о"
+    },
+    {
+      "title": "Дорога до храму ",
+      "src": "/images/portfolio/019.jpg",
+      "itemTags": "oil",
+      "descr": "1999-р.в.-(триптих-3)-40х60-п.о"
+    },
+    {
+      "title": "Українська вишивка",
+      "src": "/images/portfolio/021.jpg",
+      "itemTags": "books",
+      "descr": "2018 р. Ілюстрації до книги 'Українська вишивка"
+    }
+  ]
+}

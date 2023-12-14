@@ -4,3 +4,6 @@ const { withContentlayer } = require('next-contentlayer')
 const nextConfig = {}
 
 module.exports = withContentlayer(nextConfig)
+
+const withYAML = require('next-yaml')
+module.exports = withYAML(module.exports)
