@@ -1,7 +1,7 @@
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import avatar from '/public/images/author/01.jpg'
+import avatar from '/public/images/author/01.png'
 
 const meta = {
   title: 'About Me',
