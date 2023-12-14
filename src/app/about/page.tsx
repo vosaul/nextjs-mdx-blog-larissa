@@ -1,5 +1,7 @@
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
+import Image from 'next/image'
+import avatar from '/public/images/author/01.jpg'
 
 const meta = {
   title: 'About Me',
@@ -29,6 +31,7 @@ export default function About() {
     <div className="space-y-7">
       <h1>About</h1>
       <p>Welcome to the about page</p>
+      <Image src={avatar} alt='author' width={900} height={600} />
     </div>
   )
 }
