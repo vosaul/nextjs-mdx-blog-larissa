@@ -12,6 +12,9 @@ export function Navigation() {
       <Link href="/notes" className="nav-link">
         Notes
       </Link>
+      <Link href="/video" className="nav-link">
+        Videos
+      </Link>
     </nav>
   )
 }
