@@ -3,40 +3,36 @@
   "descr": "тут деякі відеоролики про мої роботи",
   "items": [
     {
-      "screenShot": "/images/tumbr/sv07.jpg",
-      "videoUrl": "www.youtube.com/watch?v=erZE85LMI0w"
-    },
-    {
       "screenShot": "/images/tumbr/sv09.jpg",
-      "videoUrl": "www.youtube.com/watch?v=8OdYHhtyw74"
+      "videoUrl": "8OdYHhtyw74"
     },
     {
       "screenShot": "/images/tumbr/sv08.jpg",
-      "videoUrl": "www.youtube.com/watch?v=QhyE7KHFJ18"
+      "videoUrl": "QhyE7KHFJ18"
     },
     {
       "screenShot": "/images/tumbr/sv01.jpg",
-      "videoUrl": "www.youtube.com/watch?v=3Xl85YO8h0I"
+      "videoUrl": "3Xl85YO8h0I"
     },
     {
       "screenShot": "/images/tumbr/sv02.jpg",
-      "videoUrl": "www.youtube.com/watch?v=j5rmNdaGVmw"
+      "videoUrl": "j5rmNdaGVmw"
     },
     {
       "screenShot": "/images/tumbr/sv03.jpg",
-      "videoUrl": "www.youtube.com/watch?v=pj4wPzCldIo"
+      "videoUrl": "pj4wPzCldIo"
     },
     {
       "screenShot": "/images/tumbr/sv04.jpg",
-      "videoUrl": "www.youtube.com/watch?v=ISnuq80GkkY"
+      "videoUrl": "ISnuq80GkkY"
     },
     {
       "screenShot": "/images/tumbr/sv05.jpg",
-      "videoUrl": "www.youtube.com/watch?v=Z8Ja_0jR-CM"
+      "videoUrl": "Z8Ja_0jR-CM"
     },
     {
       "screenShot": "/images/tumbr/sv06.jpg",
-      "videoUrl": "www.youtube.com/watch?v=sy-AJPGvgZE"
+      "videoUrl": "sy-AJPGvgZE"
     }
   ]
 }

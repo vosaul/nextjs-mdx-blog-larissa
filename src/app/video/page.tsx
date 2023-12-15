@@ -1,6 +1,6 @@
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
-import VideoGrid from '@/components/VideoGrid'
+import { VideoGrid } from '@/components/VideoGrid'
 
 const meta = {
   title: 'Videos',
