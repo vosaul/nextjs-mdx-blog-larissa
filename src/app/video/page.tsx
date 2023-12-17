@@ -25,11 +25,10 @@ export const metadata: Metadata = {
   },
 }
 
-export default function About() {
+export default function Video() {
   return (
     <div className="space-y-7">
-      <h1>Відео</h1>
-        <VideoGrid />
+      <VideoGrid />
     </div>
   )
 }

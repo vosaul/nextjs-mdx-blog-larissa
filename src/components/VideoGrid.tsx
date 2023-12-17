@@ -1,25 +1,31 @@
 import { promises as fs } from 'fs';
-import Image from 'next/image';
-import Link from 'next/link';
-
+import ModalVideo from './modal-video';
+import tumb from '/public/images/tumbr/sv09.jpg'
 export const VideoGrid = async () => {
   const file = await fs.readFile(process.cwd() + '/src/_data/video.json', 'utf8');
   const videos = JSON.parse(file);
 
   return (
-    <div className="container">
+    <div className="c">
       <div className="videosGridHeading">
         <h1>{videos.title}</h1>
         <p>{videos.descr}</p>
       </div>
-      <div className="videosGridItems">
+      <div className="videosGridItems grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {videos.items.map(
-          (item:{screenShot:string, videoUrl:string}, index:number) => {
-            let videoId:string = item.videoUrl
+          (item: { screenShot: string, videoUrl: string }, index: number) => {
+            let videoId: string = item.videoUrl
             return (
-              <div className="videosItem" key={'video'+index}>
-                <p>ID={videoId}</p>
-                <iframe width="560" height="315" src={"https://www.youtube.com/embed/"+videoId+"?si=dxQ9qm49hz8ejqtv"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div className="videosItem" key={'video' + index}>
+                <ModalVideo
+                  thumb={item.screenShot}
+                  thumbWidth={300}
+                  thumbHeight={200}
+                  thumbAlt='video'
+                  video={videoId}
+                  videoWidth={900}
+                  videoHeight={600}
+                />
               </div>
             )
           }
