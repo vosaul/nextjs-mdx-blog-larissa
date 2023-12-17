@@ -1,6 +1,5 @@
 import { promises as fs } from 'fs';
 import ModalVideo from './modal-video';
-import tumb from '/public/images/tumbr/sv09.jpg'
 export const VideoGrid = async () => {
   const file = await fs.readFile(process.cwd() + '/src/_data/video.json', 'utf8');
   const videos = JSON.parse(file);
