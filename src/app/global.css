@@ -105,6 +105,9 @@
 }
 
 /* Post styles */
+.prose {
+  max-width: 900px;
+}
 
 .prose .anchor {
   @apply absolute invisible no-underline;
@@ -148,7 +151,7 @@
 
 .prose img {
   /* Don't apply styles to next/image */
-  @apply m-0;
+  @apply mx-auto my-10;
 }
 
 .prose > :first-child {
