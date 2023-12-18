@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <div>
       <div className="space-y-7">
-        <h1>Blog Posts</h1>
+        <h1>Нотатки</h1>
         <p>
-          Next.js starter template for your next blog or personal site. Built
+          Про все потрошки
           with:
         </p>
       </div>

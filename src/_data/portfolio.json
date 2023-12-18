@@ -3,10 +3,17 @@
   "descr": "Тут представлені деякі з моїх робіт",
   "items": [
     {
-      "title": "Black Sea",
+      "title": "Несподіваний сніг"
+      ,
+      "src": "/images/portfolio/snow.jpg",
+      "itemTags": "past",
+      "descr": "картон .гуаш."
+    },
+    {
+      "title": "Пам'ять",
       "src": "/images/portfolio/000.jpg",
       "itemTags": "sculpture",
-      "descr": "море"
+      "descr": "монумент у Доброславі"
     },
     {
       "title": "В твоє волосся моя мила",

@@ -3,7 +3,7 @@ import navigation from '@/_data/navigation.json'
 
 export function Navigation() {
   return (
-    <nav>
+    <nav className='flex gap-6 flex-col md:flex-row'>
       {navigation.map(({title, link}, index) => {
       return (
       <Link href={link} className="nav-link" key={index}>

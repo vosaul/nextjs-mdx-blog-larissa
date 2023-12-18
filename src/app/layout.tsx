@@ -66,11 +66,8 @@ export default function RootLayout({
           </main>
           <footer className="py-16">
             <Container>
-              <p>
-                Built by{' '}
-                <Link className="link" href="https://twitter.com/hunterhchang">
-                  Hunter Chang
-                </Link>
+              <p className='text-center'>
+                Built by NextJS and Tailwind.css
               </p>
             </Container>
           </footer>
