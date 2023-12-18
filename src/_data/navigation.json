@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Про мене",
+    "link": "/"
+  },
+  {
+    "title": "Портфоліо",
+    "link": "/portfolio"
+  },
+  {
+    "title": "Відео",
+    "link": "/video"
+  },
+  {
+    "title": "Виставки",
+    "link": "/exhibitions"
+  }
+]

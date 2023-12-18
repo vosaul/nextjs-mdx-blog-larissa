@@ -68,7 +68,7 @@ export default function ModalVideo({
           >
             <div className="max-w-5xl mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden">
-              <iframe width={videoWidth} height={videoHeight} src={"https://www.youtube.com/embed/"+video+"?si=dxQ9qm49hz8ejqtv"} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe width={videoWidth} height={videoHeight} src={"https://www.youtube.com/embed/"+video+"?si=dxQ9qm49hz8ejqtv"} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </Dialog.Panel>
             </div>
           </Transition.Child>

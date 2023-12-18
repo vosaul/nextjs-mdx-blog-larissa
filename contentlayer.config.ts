@@ -28,13 +28,13 @@ const Post = defineDocumentType(() => ({
   computedFields: {
     url: {
       type: 'string',
-      resolve: (doc) => `/notes/${doc._raw.flattenedPath}`,
+      resolve: (doc) => `/exhibitions/${doc._raw.flattenedPath}`,
     },
   },
 }))
 
 export default makeSource({
-  contentDirPath: 'notes',
+  contentDirPath: 'exhibitions',
   documentTypes: [Post],
   mdx: {
     remarkPlugins: [remarkGfm],

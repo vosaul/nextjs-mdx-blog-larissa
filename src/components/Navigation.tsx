@@ -1,20 +1,17 @@
 import Link from 'next/link'
+import navigation from '@/_data/navigation.json'
 
 export function Navigation() {
   return (
     <nav>
-      <Link href="/" className="nav-link">
-        Home
+      {navigation.map(({title, link}, index) => {
+      return (
+      <Link href={link} className="nav-link" key={index}>
+        {title}
       </Link>
-      <Link href="/about" className="nav-link">
-        About
-      </Link>
-      <Link href="/notes" className="nav-link">
-        Notes
-      </Link>
-      <Link href="/video" className="nav-link">
-        Videos
-      </Link>
+      )
+     })
+    }
     </nav>
   )
 }

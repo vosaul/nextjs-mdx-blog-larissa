@@ -22,15 +22,21 @@ export default function ModalImage({
   return (
     <div className='w-full'>
 
-      {/* Image */}
+      {/* Image tumb */}
       <button
-        className="relative flex justify-center items-center focus:outline-none focus-visible:ring  w-full focus-visible:ring-indigo-300 rounded-3xl group"
+        className="relative flex justify-center items-center focus:outline-none focus-visible:ring  w-full focus-visible:ring-indigo-300 group"
         onClick={() => { setModalOpen(true) }}
-        aria-label="Watch the video"
+        aria-label="Watch the image"
       >
-        <Image className="w-full h-auto block shadow-lg transition-shadow duration-300 ease-in-out" src={modImage} width={modImageWidth} height={modImageHeight} priority alt={modImageAlt} />
+        <Image 
+          className="w-full h-auto block shadow-lg transition-shadow duration-300 ease-in-out" 
+          src={modImage} 
+          width={modImageWidth} 
+          height={modImageHeight} priority 
+          alt={modImageAlt} 
+        />
       </button>
-      {/* End: Video modImagenail */}
+      {/* End: tumb */}
 
       <Transition show={modalOpen} as={Fragment}>
         <Dialog onClose={() => setModalOpen(false)}>
@@ -58,10 +64,15 @@ export default function ModalImage({
             leaveFrom="opacity-100 scale-100"
             leaveTo="opacity-0 scale-75"
           >
-            <div className="max-w-5xl mx-auto h-full flex items-center">
-              <Dialog.Panel className="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden">
-              <Image className="w-full h-auto block shadow-lg transition-shadow duration-300 ease-in-out" src={modImage} width={modImageWidth} height={modImageHeight} priority alt={modImageAlt} />
-
+            <div className="max-w-[100%] mx-auto h-full flex items-center">
+              <Dialog.Panel className="w-full h-full  shadow-2xl bg-black overflow-hidden">
+              <Image 
+                className="w-full h-full block shadow-lg transition-shadow duration-300 ease-in-out" src={modImage} 
+                width={modImageWidth} 
+                height={modImageHeight} 
+                priority 
+                alt={modImageAlt} 
+              />
               </Dialog.Panel>
             </div>
           </Transition.Child>

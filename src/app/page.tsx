@@ -1,40 +1,39 @@
-import { PostCard } from '@/components/PostCard'
-import { Button } from '@/components/ui/button'
-import { PictureGrid } from '@/components/PfGrid'
-import { allPosts } from 'contentlayer/generated'
-import { compareDesc } from 'date-fns'
-import { Github } from 'lucide-react'
-import Link from 'next/link'
+import { WEBSITE_HOST_URL } from '@/lib/constants'
+import type { Metadata } from 'next'
+import Image from 'next/image'
+import avatar from '/public/images/author/01.jpg'
 
-export default function Home() {
-  const posts = allPosts.sort((a, b) =>
-    compareDesc(new Date(a.date), new Date(b.date)),
-  )
+const meta = {
+  title: 'About Me',
+  description: 'I like to blog about web development',
+  url: `${WEBSITE_HOST_URL}/about`,
+}
 
+export const metadata: Metadata = {
+  title: meta.title,
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    url: meta.url,
+  },
+  twitter: {
+    title: meta.title,
+    description: meta.description,
+  },
+  alternates: {
+    canonical: meta.url,
+  },
+}
+
+export default function About() {
   return (
-    <div>
-      <div className="space-y-7">
-        <h1>Moї роботи</h1>
-
-        <Button asChild>
-          <a href="https://github.com/ChangoMan/nextjs-mdx-blog">
-            <Github className="mr-1" /> Get the source code!
-          </a>
-        </Button>
-        <hr/>
-        <PictureGrid />
-      </div>
-
-      <div className="mt-16">
-        <h2>From the blog</h2>
-        <p className="mt-2 leading-8">
-          Blog posts are written with MDX and processed through Contentlayer.
+    <div className="space-y-7">
+      <h1>Про мене</h1>
+      <div className="grid gap-8 lg:grid-cols-2">
+        <Image src={avatar} alt='author' width={900} height={600} />
+        <p>(09. 07. 1965, село Селище Сокирянського району Чернівецької області.) – живописець і графік. Закінчила Одеський педшнститут (1991; викл. Чл. твор. об’єдн. «Новація» (м. Южне Одес. обл., 2005). Працювала 1991–2000 у міській школі мист-в. Відтоді – на твор. роботі. Від 2004 – голова відділ. т-ва «Просвіта» у м. Южне. Учасниця мист. виставок, вітчизн. та закордон. пленерів від 1997. Персон. – в Одесі (2000, 2003–06), Фленсбурзі (Німеччина, 2004), Львові (2008). У пейзажах і натюрмортах створює феєрію поєднань гол. складових пд.-укр. Космосу: Сонця, Степу, Моря і Небокраю. У вишуканих композиціях на шовку досягла маляр. невимушеності та імпровізаційності. Виконала серію вираз. худож.-графіч. оформлень книжок. Для твор. манери Д. характерна пружно-барокова система ліній, що природно поєднує багатозначність і символістичність класич. вільної графіки з емоц. «кучерявістю» нар. малювань.
         </p>
-      </div>
-      <div className="mt-10 space-y-12 border-t border-gray-200 pt-10 dark:border-gray-700">
-        {posts.map((post, idx) => (
-          <PostCard key={idx} {...post} />
-        ))}
       </div>
     </div>
   )
