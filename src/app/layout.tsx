@@ -50,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="uk">
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <header className="py-4">
