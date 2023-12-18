@@ -8,16 +8,16 @@ import Link from 'next/link'
 import './global.css'
 
 const meta = {
-  title: 'Hunter Chang - Website',
+  title: 'Лариса Демянишина - мисткиня',
   description:
-    'Sleep deprived father. FE Engineer in China. Lover of Ramen and Kpop',
-  image: `${WEBSITE_HOST_URL}/og-preview.jpg`,
+    'Лариса Демянишина, мисткиня, художниця, викладачка',
+  image: `${WEBSITE_HOST_URL}/images/author/01.jpg`,
 }
 
 export const metadata: Metadata = {
   title: {
     default: meta.title,
-    template: '%s | Hunter Chang',
+    template: '%s | Larissa',
   },
   description: meta.description,
   openGraph: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: meta.description,
     url: WEBSITE_HOST_URL,
     siteName: meta.title,
-    locale: 'en-US',
+    locale: 'uk',
     type: 'website',
     images: [
       {
