@@ -1,9 +1,6 @@
 import { PostCard } from '@/components/PostCard'
-//import { Button } from '@/components/ui/button'
 import { allPosts } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns'
-import { Github } from 'lucide-react'
-import Link from 'next/link'
 
 export default function Home() {
   const posts = allPosts.sort((a, b) =>
@@ -16,7 +13,6 @@ export default function Home() {
         <h1>Нотатки</h1>
         <p>
           Про все потрошки
-          with:
         </p>
       </div>
 

@@ -10,7 +10,7 @@ export const VideoGrid = async () => {
         <h1>{videos.title}</h1>
         <p>{videos.descr}</p>
       </div>
-      <div className="videosGridItems grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <div className="videosGridItems grid gap-8 md:grid-cols-2 lg:grid-cols-4 mt-6 mb-8">
         {videos.items.map(
           (item: { screenShot: string, videoUrl: string }, index: number) => {
             let videoId: string = item.videoUrl

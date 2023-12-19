@@ -5,6 +5,7 @@ import ThemeSwitch from '@/components/ThemeSwitch'
 import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import './global.css'
 
 const meta = {
@@ -56,6 +57,14 @@ export default function RootLayout({
           <header className="py-4">
             <Container>
               <div className="flex items-center justify-between py-6">
+                <Link href={'/'}>
+                  <Image
+                    src={'/images/logo4.png'}
+                    alt='Logo'
+                    width={150}
+                    height={30}
+                  />
+                </Link>
                 <Navigation />
                 <ThemeSwitch />
               </div>

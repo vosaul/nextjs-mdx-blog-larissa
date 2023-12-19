@@ -21,7 +21,7 @@ export const PictureGrid = () => {
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid flex w-auto gap-6 "
-        columnClassName="my-masonry-grid_column">
+        columnClassName="my-masonry-grid_column my-6">
         {portfolio.items.map(
           (item:{title:string, descr:string, src:string}, index:number) => {
             return (
