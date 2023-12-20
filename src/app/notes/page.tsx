@@ -8,7 +8,7 @@ export default function Home() {
   )
 
   return (
-    <div>
+    <>
       <div className="space-y-7">
         <h1>Нотатки</h1>
         <p>
@@ -16,11 +16,14 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-10 space-y-12 border-t border-gray-200 pt-10 dark:border-gray-700">
+      <div 
+        className="mt-10 
+        flex gap-5 flex-wrap
+        justify-center pt-10">
         {posts.map((post, idx) => (
           <PostCard key={idx} {...post} />
         ))}
       </div>
-    </div>
+    </>
   )
 }

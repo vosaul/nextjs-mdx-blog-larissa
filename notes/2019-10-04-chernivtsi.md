@@ -1,7 +1,7 @@
 ---
 title: Персональна виставка "Ізвори...".
 date: 2019-10-04
-#titlePhoto: /images/exhibition/2019-10-04/01.jpg
+image: /images/exhibition/2019-10-04/01.jpg
 description: 4 жовтня у виставковій залі Чернівецького обласного краєзнавчого музею / Chernivtsi Regional Museum відкрилася персональна виставка "Ізвори..."
 type: Post
 ---
