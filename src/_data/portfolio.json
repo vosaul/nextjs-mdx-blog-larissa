@@ -3,29 +3,47 @@
   "descr": "Тут представлені деякі з моїх робіт",
   "items": [
     {
+      "title": "Ганна",
+      "src": "/images/portfolio/hanna.jpg",
+      "itemTags": "past",
+      "descr": "50х45 картон, пастель, 2005"
+    },
+    {
+      "title": "Мелодія степу",
+      "src": "/images/portfolio/melody.jpg",
+      "itemTags": "past",
+      "descr": "100х80 полотно, олія"
+    },
+    {
+      "title": "Срібляста стихія",
+      "src": "/images/portfolio/silver.jpg",
+      "itemTags": "past",
+      "descr": " 70х70 полотно, олія 2009"
+    },
+    {
+      "title": "Молитва",
+      "src": "/images/portfolio/molytva.jpg",
+      "itemTags": "oil",
+      "descr": "2007, полотно, олія.125х50"
+    },
+    {
+      "title": "Зимовий вечір",
+      "src": "/images/portfolio/winter-evening.jpg",
+      "itemTags": "acrile silk",
+      "descr": "30х40 шовк, акрил 2008"
+    },
+    {
       "title": "Несподіваний сніг"
       ,
       "src": "/images/portfolio/snow.jpg",
       "itemTags": "past",
-      "descr": "картон .гуаш."
-    },
-    {
-      "title": "Пам'ять",
-      "src": "/images/portfolio/000.jpg",
-      "itemTags": "sculpture",
-      "descr": "монумент у Доброславі"
+      "descr": "картон, гуаш."
     },
     {
       "title": "В твоє волосся моя мила",
       "src": "/images/portfolio/001.jpg",
       "itemTags": "past",
       "descr": "'В твоє волосся моя мила' До-Б-І-Антонича     2014-р.в., 65х55-к.о"
-    },
-    {
-      "title": "Ранок",
-      "src": "/images/portfolio/002.jpg",
-      "itemTags": "sculpture",
-      "descr": ""
     },
     {
       "title": "Spring in Odesa",
@@ -43,7 +61,7 @@
       "title": "Вартові моря ",
       "src": "/images/portfolio/005.jpg",
       "itemTags": "oil",
-      "descr": "2001 р.в. 70х50 п.о."
+      "descr": "2001 р.в. 70х50 полотно, олія."
     },
     {
       "title": "Весна неначе карусель",
@@ -55,7 +73,7 @@
       "title": "Запах дитинства",
       "src": "/images/portfolio/007.jpg",
       "itemTags": "oil",
-      "descr": "2012-р.в. 60х60см. п.о"
+      "descr": "2012-р.в. 60х60см. полотно, олія"
     },
     {
       "title": "Корови моляться до сонця",
@@ -67,13 +85,13 @@
       "title": "На Купала",
       "src": "/images/portfolio/009.jpg",
       "itemTags": "oil",
-      "descr": "На Купала 90х70-П.О"
+      "descr": "На Купала 90х70-полотно, олія"
     },
     {
       "title": "Над лиманом",
       "src": "/images/portfolio/010.jpg",
       "itemTags": "oil",
-      "descr": "Над-лиманом-50х60-П.О"
+      "descr": "Над-лиманом-50х60-полотно, олія"
     },
     {
       "title": "Та не однаково мені",
@@ -91,13 +109,13 @@
       "title": "Зимовий сад",
       "src": "/images/portfolio/013.jpg",
       "itemTags": "oil",
-      "descr": "2016-р.в.-20х20-п.о"
+      "descr": "2016-р.в.-20х20-полотно, олія"
     },
     {
       "title": "Зимній-Снов",
       "src": "/images/portfolio/014.jpg",
       "itemTags": "oil",
-      "descr": "Зимній-Снов.-2016-р.в.-60х70смп.о"
+      "descr": "Зимній-Снов.-2016-р.в.-60х70смполотно, олія"
     },
     {
       "title": "Дощ в старому місті",
@@ -109,25 +127,37 @@
       "title": "Золото осені",
       "src": "/images/portfolio/016.jpg",
       "itemTags": "oil",
-      "descr": "2012-р.в-80х70-п.о"
+      "descr": "2012-р.в-80х70-полотно, олія"
     },
     {
       "title": "Дорога до храму ",
       "src": "/images/portfolio/017.jpg",
       "itemTags": "oil",
-      "descr": "1999-р.в.-(триптих-1)-40х60-п.о"
+      "descr": "1999-р.в.-(триптих-1)-40х60-полотно, олія"
     },
     {
       "title": "Дорога до храму",
       "src": "/images/portfolio/018.jpg",
       "itemTags": "oil",
-      "descr": "1999-р.в.-(триптих-2)-40х60-п.о"
+      "descr": "1999-р.в.-(триптих-2)-40х60-полотно, олія"
     },
     {
       "title": "Дорога до храму ",
       "src": "/images/portfolio/019.jpg",
       "itemTags": "oil",
-      "descr": "1999-р.в.-(триптих-3)-40х60-п.о"
+      "descr": "1999-р.в.-(триптих-3)-40х60-полотно, олія"
+    },
+    {
+      "title": "Пам'ять",
+      "src": "/images/portfolio/000.jpg",
+      "itemTags": "sculpture",
+      "descr": "монумент у Доброславі"
+    },
+    {
+      "title": "Ранок",
+      "src": "/images/portfolio/002.jpg",
+      "itemTags": "sculpture",
+      "descr": ""
     },
     {
       "title": "Українська вишивка",
