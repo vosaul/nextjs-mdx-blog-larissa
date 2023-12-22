@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import { VideoGrid } from '@/components/VideoGrid'
 
 const meta = {
-  title: 'Videos',
-  description: 'I like to blog about web development',
+  title: 'Відео',
+  description: 'Трохи відео з YouTube',
   url: `${WEBSITE_HOST_URL}/about`,
 }
 
