@@ -4,8 +4,8 @@ import Image from 'next/image'
 import avatar from '/public/images/author/01.jpg'
 
 const meta = {
-  title: 'About Me',
-  description: 'I like to blog about web development',
+  title: 'Про мене',
+  description: 'Лариса Демянишина, художниця',
   url: `${WEBSITE_HOST_URL}/about`,
 }
 
