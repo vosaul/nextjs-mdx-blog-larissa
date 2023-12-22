@@ -30,9 +30,9 @@ export default function About() {
   return (
     <div className="space-y-7 ">
       <h1>Привіт, я Лариса Демянишина, художниця</h1>
-      <div className="grid gap-8 lg:grid-cols-2">
-        <Image src={avatar} alt='author' width={800} height={600} />
-        <div className="p-7 prose dark:text-slate-100">
+      <div className="grid gap-9 lg:grid-cols-2">
+        <Image src={avatar} alt='author' width={800} height={600} className='my-6'/>
+        <div className="prose dark:text-slate-100">
           <p>Народилася 09.07.1965, село Селище Сокирянського району Чернівецької області.</p>
           <ul>
             <li>живописець і графік. В 1991 році закінчила Одеський педагогічний інститут ім. Ушинського за фахом образотворче мистецтво та креслення. </li>
