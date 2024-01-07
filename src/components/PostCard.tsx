@@ -6,14 +6,16 @@ export function PostCard(post: Post) {
   return (
     <>
       {post.image ? (
-        <article className="flex flex-col justify-between border border-solid rounded-lg w-[300px] ">
-            <Image
-              className='block self-start'
-              src={post.image}
-              alt='image'
-              width={300}
-              height={200}
-            />
+        <article className="flex flex-col justify-start border border-solid rounded-lg w-[300px]  ">
+            <div className="max-h-[200px] overflow-y-hidden">
+              <Image
+                className='block self-start '
+                src={post.image}
+                alt='image'
+                width={300}
+                height={200}
+              />
+            </div>
             <div className="p-4 self-end">
               <div className="flex items-center gap-x-4 text-xs">
                 <time dateTime={post.date}>
