@@ -3,6 +3,12 @@
   "descr": "Тут представлені деякі з моїх робіт",
   "items": [
     {
+      "title": "Ой у лузі",
+      "src": "/images/portfolio/u_luzi.jpg",
+      "itemTags": "past",
+      "descr": "картон, пастель, 2021"
+    },
+    {
       "title": "Ганна",
       "src": "/images/portfolio/hanna.jpg",
       "itemTags": "past",
