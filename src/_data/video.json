@@ -3,8 +3,24 @@
   "descr": "Трохи відео",
   "items": [
     {
+      "screenShot": "/images/tumbr/sv10.png",
+      "videoUrl": "z8xhPG6AYvY"
+    },
+    {
+      "screenShot": "/images/tumbr/sv14.png",
+      "videoUrl": "cxXjdmdXobs"
+    },
+    {
+      "screenShot": "/images/tumbr/sv12.png",
+      "videoUrl": "rjNWqcOA02g"
+    },
+    {
       "screenShot": "/images/tumbr/sv09.jpg",
       "videoUrl": "8OdYHhtyw74"
+    },
+    {
+      "screenShot": "/images/tumbr/sv13.png",
+      "videoUrl": "5hrm-7JUe1I"
     },
     {
       "screenShot": "/images/tumbr/sv08.jpg",
