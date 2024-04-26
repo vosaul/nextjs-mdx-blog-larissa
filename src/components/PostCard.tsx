@@ -23,9 +23,9 @@ export function PostCard(post: Post) {
                   {format(parseISO(post.date), 'dd.MM.yyyy')}
                 </time>
               </div>
-              <h3 className="mt-3 text-lg font-semibold leading-6">
+              <h2 className="mt-3 text-lg font-semibold leading-6">
                 {post.title}
-              </h3>
+              </h2>
               <p className="mt-5 line-clamp-3 text-sm leading-6">
                 {post.description}
               </p>
@@ -42,10 +42,10 @@ export function PostCard(post: Post) {
               </time>
             </div>
             <div className="group relative">
-              <h3 className="mt-3 text-lg font-semibold leading-6">
+              <h2 className="mt-3 text-lg font-semibold leading-6">
                 <span className="absolute inset-0" />
                 {post.title}
-              </h3>
+              </h2>
               <p className="mt-5 line-clamp-3 text-sm leading-6">
                 {post.description}
               </p>
