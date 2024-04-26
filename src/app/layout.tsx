@@ -6,6 +6,7 @@ import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import './global.css'
 
 const meta = {
@@ -13,6 +14,7 @@ const meta = {
   description:
     'Лариса Демянишина, мисткиня, художниця, викладачка',
   image: `${WEBSITE_HOST_URL}/images/author/01.jpg`,
+  favicon: `${WEBSITE_HOST_URL}/images/favicon.ico`,
 }
 
 export const metadata: Metadata = {
@@ -52,6 +54,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="uk">
+      <GoogleAnalytics gaId="G-ZD0TYB9TBJ" />
       <body>
         <ThemeProvider attribute="class" defaultTheme="dark">
           <header className="py-4">
