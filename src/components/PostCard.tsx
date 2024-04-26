@@ -6,7 +6,7 @@ export function PostCard(post: Post) {
   return (
     <>
       {post.image ? (
-        <article className="flex flex-col justify-start border border-solid rounded-lg hover:border-gray-300 hover:shadow-md shadow-gray-400 w-[300px] hover:bg-orange-50 ">
+        <article className="flex flex-col justify-start border border-solid rounded-lg hover:border-gray-300 hover:shadow-md shadow-gray-400 w-[300px] hover:bg-orange-50 dark:hover:bg-gray-900">
           <Link className="link" href={post.url}>
             <div className="max-h-[200px] overflow-y-hidden">
               <Image
