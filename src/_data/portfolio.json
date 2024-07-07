@@ -3,6 +3,12 @@
   "descr": "Тут представлені деякі з моїх робіт",
   "items": [
     {
+      "title": "На Купала",
+      "src": "/images/portfolio/na_kupala.jpg",
+      "itemTags": "past",
+      "descr": "папір, акварель, липень 2022"
+    },
+    {
       "title": "Ой у лузі",
       "src": "/images/portfolio/u_luzi.jpg",
       "itemTags": "past",
