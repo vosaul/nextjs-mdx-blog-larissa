@@ -3,6 +3,10 @@
   "descr": "Трохи відео",
   "items": [
     {
+      "screenShot": "/images/tumbr/sv15.png",
+      "videoUrl": "Pm_KqI5PWuk"
+    },
+    {
       "screenShot": "/images/tumbr/sv10.png",
       "videoUrl": "z8xhPG6AYvY"
     },
