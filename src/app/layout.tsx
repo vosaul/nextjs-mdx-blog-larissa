@@ -6,8 +6,9 @@ import { WEBSITE_HOST_URL } from '@/lib/constants'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import { GoogleAnalytics } from '@next/third-parties/google'
+//import { GoogleAnalytics } from '@next/third-parties/google'
 import './global.css'
+import Script from "next/script"
 
 const meta = {
   title: 'Лариса Демянишина - мисткиня',
@@ -54,8 +55,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="uk">
-      <GoogleAnalytics gaId="G-ZD0TYB9TBJ" />
+      {/* <GoogleAnalytics gaId="G-ZD0TYB9TBJ" /> */}
       <body>
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZD0TYB9TBJ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZD0TYB9TBJ');
+      `}
+        </Script>
+
         <ThemeProvider attribute="class" defaultTheme="dark">
           <header className="py-4">
             <Container>
@@ -66,6 +81,7 @@ export default function RootLayout({
                     alt='Logo'
                     width={150}
                     height={30}
+                    loading='eager'
                   />
                 </Link>
                 <Navigation />

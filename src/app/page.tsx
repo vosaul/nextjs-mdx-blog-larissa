@@ -31,7 +31,7 @@ export default function About() {
     <div className="space-y-7 ">
       <h1>Привіт, я Лариса Демянишина, художниця</h1>
       <div className="grid gap-9 lg:grid-cols-2">
-        <Image src={avatar} alt='author' width={800} height={600} className='my-6'/>
+        <Image src={avatar} alt='author' width={800} height={600} className='my-6' loading='eager'/>
         <div className="prose dark:text-slate-100">
           <p>Народилася 09.07.1965, село Селище Сокирянського району Чернівецької області.</p>
           <ul>
