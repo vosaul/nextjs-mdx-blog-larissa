@@ -3,6 +3,12 @@
   "descr": "Тут представлені деякі з моїх робіт",
   "items": [
     {
+      "title": "Хай закінчиться війна",
+      "src": "/images/portfolio/war.jpg",
+      "itemTags": "past",
+      "descr": "картон, акварель, гуаш. 32х43, 2025 рік виконання."
+    },
+    {
       "title": "На Купала",
       "src": "/images/portfolio/na_kupala.jpg",
       "itemTags": "past",
